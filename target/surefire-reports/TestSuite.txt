@@ -1,0 +1,19 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 199.418 s <<< FAILURE! - in TestSuite
+qa.HomePage.basePageNavigation[, 85023, Primal, Vincent, 05/25/1985, yes, 1952 W Tracy Ln, Phoenix](1)  Time elapsed: 128.72 s  <<< FAILURE!
+org.openqa.selenium.ElementClickInterceptedException: 
+element click intercepted: Element is not clickable at point (489, 726)
+  (Session info: chrome=90.0.4430.85)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Primals-MacBook-Pro.local', ip: '2600:8800:b80:3d60:7970:936:6e2e:50b4%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '13.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 90.0.4430.85, chrome: {chromedriverVersion: 90.0.4430.24 (4c6d850f087da..., userDataDir: /var/folders/_y/336dybqj3k5...}, goog:chromeOptions: {debuggerAddress: localhost:56181}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: f05fbe368065d7714895633b3514291b
+	at qa.HomePage.basePageNavigation(HomePage.java:62)
+
+qa.HomePage.basePageNavigation[null, null, null, null, null, null, null, null](2)  Time elapsed: 62.64 s  <<< FAILURE!
+java.lang.IllegalArgumentException: Keys to send should be a not null CharSequence
+	at qa.HomePage.basePageNavigation(HomePage.java:45)
+
